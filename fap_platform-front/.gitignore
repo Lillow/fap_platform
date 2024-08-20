@@ -10,6 +10,7 @@
 /node_modules
 npm-debug.log
 yarn-error.log
+package-lock.json
 
 # IDEs and editors
 .idea/
@@ -27,6 +28,8 @@ yarn-error.log
 !.vscode/launch.json
 !.vscode/extensions.json
 .history/*
+.vscode/
+
 
 # Miscellaneous
 /.angular/cache
@@ -40,3 +43,17 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Environment files
+src/environments/*.ts
+
+# Logs and temp files
+*.log
+.temp/
+*.tmp
+.idea/
+.DS_Store
+
+# Mac and Windows system files
+Thumbs.db
+.DS_Store
